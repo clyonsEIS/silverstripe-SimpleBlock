@@ -1,0 +1,23 @@
+{
+	"name": "clyonsEIS/silverstripe-simpleblock",
+	"description": "Basic linkable block, intended as base class for subclassing",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "block"],
+	"homepage": "https://github.com/clyonsEIS/silverstripe-simpleblock",
+	"authors": [
+	{
+		"name": "Craig Lyons",
+		"email": "clyons@execproinc.com"
+	}
+	],
+
+	"require":
+	{
+		"silverstripe/framework": "3.*",
+		"composer/installers": "*"
+	},
+	"extra": {
+		"installer-name": "simpleblock"
+	}
+
+}
